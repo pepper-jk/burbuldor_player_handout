@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1637762094,
-		"dateLastModified": 1637762094
+		"dateAdded": 1638315772,
+		"dateLastModified": 1638315772
 	},
 	"monster": [
 		{
@@ -973,6 +973,113 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Swordmaster",
+			"source": "BurbuldorPlayerHandout",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Heavy"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 10",
+				"average": 37
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(dependant on ancestry)"
+				}
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 14,
+			"int": 14,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"str": "+6",
+				"dex": "+3",
+				"con": "+6",
+				"int": "+3",
+				"wis": "+3",
+				"cha": "+3"
+			},
+			"skill": {
+				"athletics": "+5",
+				"survival": "+5"
+			},
+			"senses": [
+				"appropriate to ancestry"
+			],
+			"passive": 12,
+			"languages": [
+				"appropriate to ancestry (usually Common)"
+			],
+			"cr": "Unknown",
+			"trait": [
+				{
+					"name": "Retainer",
+					"entries": [
+						"This creature is a Retainer, as described in {@book Strongholds and Followers|SaF|8|Retainers}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Signature Attack",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage.",
+						"At 7th level, retainers can take two signature attacks per round."
+					]
+				},
+				{
+					"name": "Gaping Wound (3/Day)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"The swordmaster makes an attack with their signature attack against an adjacent creature. On a hit, the target starts bleeding, taking 3 ({@dice 1d6}) damage at the start of each of its following turns. At the end of each of its turns, it can make a Constitution save to stop the bleeding."
+					]
+				},
+				{
+					"name": "Challenge (3/Day, Bonus Action)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"The swordmaster issues a challenge to an adjacent creature. For 1 minute, if that creature attempts to attack a target other than the swordmaster, or attempts to move away from the swordmaster, the swordmaster immediately makes two attacks with their signature attack against that creature, ending the Challenge."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Retaliate (3/Day)",
+					"entries": [
+						"{@i Prerequisite: 7th-level retainer}",
+						"After being hit by a melee attack, the swordmaster can immediately make three attacks against the attacker with their signature attack."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
