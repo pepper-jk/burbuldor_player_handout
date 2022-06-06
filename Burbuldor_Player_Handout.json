@@ -1098,6 +1098,157 @@
 			]
 		},
 		{
+			"name": "Tasbella Coalbender",
+			"source": "BurbuldorPlayerHandout",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item breastplate|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d10 + 50",
+				"average": 83
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 19,
+			"int": 10,
+			"wis": 8,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Tasbella has advantage on saving throws against poison, and she has resistance against poison damage."
+					]
+				},
+				{
+					"name": "Dueling",
+					"entries": [
+						"When Tasbella is wielding a melee weapon in one hand and no other weapons, she gains a +2 bonus to damage rolls with that weapon. (already included in the attacks)"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tasbella makes two attacks with her battleaxe."
+					]
+				},
+				{
+					"name": "Battleaxe +1",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h} 11 ({@damage 1d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Burning Hands (1/Day)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"Tasbella casts {@spell Burning Hands} ({@dc 14}, {@dice 3d6})."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Vicious Mockery (2/Day)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"Tasbella casts {@spell Vicious Mockery} ({@dc 14}, {@dice 2d4})."
+					]
+				},
+				{
+					"name": "Sword Burst (2/Day)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"Tasbella casts {@spell Sword Burst | tce} ({@dc 14}, {@dice 2d6})."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Stance (2/Day)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"Tasbella casts {@spell Absorb Elements | xge} or {@spell Shield}."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://nextcloud.improved-madness.de/s/TcwQJbEyrwWZwcA/preview"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://nextcloud.improved-madness.de/s/MC5ZzpJzNNzTbLy/preview",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"level": 5,
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			}
+		},
+		{
 			"name": "Thoradin Retainer",
 			"shortName": "Thoradin",
 			"source": "BurbuldorPlayerHandout",
