@@ -1297,6 +1297,118 @@
 				"RW",
 				"THW"
 			]
+		},
+		{
+			"name": "Vond",
+			"source": "BurbuldorPlayerHandout",
+			"level": 5,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Lizardfolk"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"Light"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 40",
+				"average": 67
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(dependant on ancestry)"
+				}
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"str": "+3",
+				"dex": "+6",
+				"con": "+3",
+				"int": "+3",
+				"wis": "+3",
+				"cha": "+6"
+			},
+			"skill": {
+				"deception": "+6",
+				"performance": "+6",
+				"persuasion": "+6"
+			},
+			"senses": [
+				"appropriate to ancestry"
+			],
+			"passive": 13,
+			"languages": [
+				"appropriate to ancestry (usually Common)"
+			],
+			"cr": "Unknown",
+			"trait": [
+				{
+					"name": "Retainer",
+					"entries": [
+						"This creature is a Retainer, as described in {@book Strongholds and Followers|SaF|8|Retainers}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Signature Attack",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage.",
+						"At 7th level, retainers can take two signature attacks per round."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Cheer (3/Day)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"After an ally within 60 feet that the troubadour-warrior can see makes an attack, roll a {@dice d6} and add the result to the ally's result."
+					]
+				},
+				{
+					"name": "Bolstering Praise (1/Day)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"After an ally hits an enemy creature, the troubadour-warrior can convert the hit into a critical hit."
+					]
+				},
+				{
+					"name": "Distracting Taunt (3/Day)",
+					"entries": [
+						"{@i Prerequisite: 7th-level retainer}",
+						"When a creature the troubadour-warrior can see within 60 feet hits the leader of the troubadour-warrior, the troubadour-warrior can taunt the creature, forcing it to make a Charisma saving throw. On a failed save, its attack automatically misses."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	],
 	"item": [
