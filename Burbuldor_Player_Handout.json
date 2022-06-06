@@ -20,583 +20,6 @@
 	},
 	"monster": [
 		{
-			"name": "Homunculus Servant",
-			"source": "BurbuldorPlayerHandout",
-			"size": "T",
-			"type": "construct",
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"special": "10 (5d4)"
-			},
-			"speed": {
-				"walk": 20,
-				"fly": 30
-			},
-			"str": 4,
-			"dex": 15,
-			"con": 12,
-			"int": 10,
-			"wis": 10,
-			"cha": 7,
-			"save": {
-				"dex": "+5"
-			},
-			"skill": {
-				"perception": "+6",
-				"stealth": "+5"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned"
-			],
-			"languages": [
-				"understands the languages you speak"
-			],
-			"pbNote": "equals your bonus",
-			"trait": [
-				{
-					"name": "Evasion",
-					"entries": [
-						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
-					]
-				}
-			],
-			"actionNote": "Requires Your Bonus Action",
-			"action": [
-				{
-					"name": "Force Strike",
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30 ft., one target you can see. {@h}{@damage 1d4 + 3} force damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Channel Magic",
-					"entries": [
-						"The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you."
-					]
-				}
-			],
-			"fluff": {
-				"name": "Homunculus Servant",
-				"source": "TCE",
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/TCE/Homunculus Servant.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://5e.tools/img/TCE/Homunculus Servant.png?v=1.130.3",
-			"senseTags": [
-				"D"
-			],
-			"damageTags": [
-				"O"
-			],
-			"miscTags": [
-				"RW"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Steel Defender Mount",
-			"source": "BurbuldorPlayerHandout",
-			"size": "M",
-			"type": "construct",
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"special": "31 (5d8)"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 14,
-			"dex": 12,
-			"con": 14,
-			"int": 4,
-			"wis": 10,
-			"cha": 6,
-			"save": {
-				"dex": "+4",
-				"con": "+5"
-			},
-			"skill": {
-				"athletics": "+5",
-				"perception": "+6"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 16,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"poisoned"
-			],
-			"languages": [
-				"understands the languages you speak"
-			],
-			"pbNote": "equals your bonus",
-			"trait": [
-				{
-					"name": "Vigilant",
-					"entries": [
-						"The defender can't be surprised."
-					]
-				}
-			],
-			"actionNote": "Requires Your Bonus Action",
-			"action": [
-				{
-					"name": "Force-Empowered Rend",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + 3} force damage. If the target is Medium or smaller it becomes {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and the defender can use its action to deal {@damage 1d8 + 3} force damage. The defender can grapple only one target at a time."
-					]
-				},
-				{
-					"name": "Repair (3/Day)",
-					"entries": [
-						"The magical mechanisms inside the defender restore {@dice 2d8 + 3} hit points to itself or to one construct or object within 5 feet of it."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Deflect Attack",
-					"entries": [
-						"The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender."
-					]
-				}
-			],
-			"fluff": {
-				"name": "Steel Defender",
-				"source": "TCE",
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/TCE/Steel Defender.png"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://5e.tools/img/TCE/Steel Defender.png?v=1.130.3",
-			"senseTags": [
-				"D"
-			],
-			"damageTags": [
-				"O"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"grappled",
-				"restrained"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Giant Goat Mount",
-			"source": "BurbuldorPlayerHandout",
-			"size": "L",
-			"type": "beast",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor",
-						"PB"
-					]
-				}
-			],
-			"hp": {
-				"formula": "3d10 + 3",
-				"average": 19
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 17,
-			"dex": 11,
-			"con": 12,
-			"int": 3,
-			"wis": 12,
-			"cha": 6,
-			"passive": 11,
-			"trait": [
-				{
-					"name": "Charge",
-					"entries": [
-						"If the goat moves at least 15 feet straight toward a target it starts charging."
-					]
-				},
-				{
-					"name": "Sure-Footed",
-					"entries": [
-						"The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
-					]
-				},
-				{
-					"name": "Mounted",
-					"entries": [
-						"During a long rest, the goat can designate one creature that rode it within the last 10 days as its rider. The goat gains temporary hit points equal to 4 times the rider’s level or challenge rating after completing the long rest. The goat uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects."
-					]
-				},
-				{
-					"name": "Mountain Breed",
-					"entries": [
-						"The goat ignores difficult terrain and its long and high jump are 30 feet."
-					]
-				},
-				{
-					"name": "Temporary Hit Points",
-					"entries": [
-						"20"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Combat Ram",
-					"entries": [
-						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage, or 13 ({@damage 4d4 + 3}) bludgeoning damage if the goat is charging on the same turn. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "High Ground",
-					"entries": [
-						"The goat needs to stand at least 10 feet higher than the target to use this action. The goat sprints down from its higher position, using gravity to gain speed. The target gets knocked {@condition prone} immediately and has to make a {@dc 13} Constitution saving throw, taking 17 ({@damage 4d6 + 3}) bludgeoning damage on a failed save and half as much on a successful one."
-					]
-				},
-				{
-					"name": "Dogfight (3/Day)",
-					"entries": [
-						"The goat attacks with combat ram uses it horns to lock a target into single combat. Until the target succeeds a {@dc 13} Strength saving throw, it can only attack the goat or its rider. The target can make the saving throw at the end of its turns."
-					]
-				}
-			],
-			"environment": [
-				"grassland",
-				"hill",
-				"mountain"
-			],
-			"tokenUrl": "https://5e.tools/img/MM/Giant Goat.png?v=1.127.2",
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/giant-goat.mp3?v=1.127.2"
-			},
-			"traitTags": [
-				"Charge"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			]
-		},
-		{
-			"name": "Giant Lizard Mount",
-			"source": "BurbuldorPlayerHandout",
-			"size": "L",
-			"type": "beast",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor",
-						"PB"
-					]
-				}
-			],
-			"hp": {
-				"average": 19,
-				"formula": "3d10 + 3"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 15,
-			"dex": 12,
-			"con": 13,
-			"int": 2,
-			"wis": 10,
-			"cha": 5,
-			"senses": [
-				"darkvision 30 ft."
-			],
-			"passive": 10,
-			"trait": [
-				{
-					"name": "Mounted",
-					"entries": [
-						"During a long rest, the lizard can designate one creature that rode it within the last 10 days as its rider. The lizard gains temporary hit points equal to 4 times the rider’s level or challenge rating after completing the long rest. The lizard uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects."
-					]
-				},
-				{
-					"name": "Hold Breath",
-					"entries": [
-						"The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
-					]
-				},
-				{
-					"name": "Temporary Hit Points",
-					"entries": [
-						"20"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Tail",
-					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "Clapping (1/Day)",
-					"entries": [
-						"The lizards rider gains one Lizard Inspiration die, a {@dice d6}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Book it! (1/Day)",
-					"entries": [
-						"If it or its rider is hit, the lizard can move up to its speed away from the attacker. This movement does not provoke attacks of opportunity."
-					]
-				}
-			],
-			"environment": [
-				"coastal",
-				"desert",
-				"forest",
-				"swamp",
-				"underdark"
-			],
-			"fluff": {
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and other Underdark dwellers.",
-									"Variant: Giant Lizard Traits",
-									"Some giant lizards have one or both of the following traits. Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)",
-									{
-										"name": "Spider Climb",
-										"type": "entries",
-										"entries": [
-											"The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			"tokenUrl": "https://5e.tools/img/MM/Giant Lizard.png?v=1.130.3",
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/giant-lizard.mp3?v=1.130.3"
-			},
-			"traitTags": [
-				"Hold Breath"
-			],
-			"senseTags": [
-				"D"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Ermnik Dankil (Retainer)",
-			"source": "BurbuldorPlayerHandout",
-			"level": 5,
-			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"hill dwarf"
-				]
-			},
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"unarmored defense"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d12 + 20",
-				"average": 60
-			},
-			"speed": {
-				"walk": 35
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 18,
-			"int": 9,
-			"wis": 11,
-			"cha": 12,
-			"save": {
-				"str": "+6",
-				"con": "+7"
-			},
-			"skill": {
-				"athletics": "+6",
-				"intimidation": "+4",
-				"survival": "+3",
-				"insight": "+3"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 10,
-			"resist": [
-				"poison"
-			],
-			"languages": [
-				"Common",
-				"Dwarvish"
-			],
-			"trait": [
-				{
-					"name": "Dwarven Resilience",
-					"entries": [
-						"You have advantage on saves against poison and resistance against poison damage."
-					]
-				},
-				{
-					"name": "Stonecunning",
-					"entries": [
-						"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check."
-					]
-				},
-				{
-					"name": "Boomerang of Warning",
-					"entries": [
-						"While the boomerang of warning is on Ermnik's person, he has advantage on initiative rolls. In addition, he and any of his companions within 30 feet of him can't be surprised, except when {@condition incapacitated} by something other than nonmagical sleep. The boomerang magically awakens him and his companions within range if any of them are sleeping naturally when combat begins."
-					]
-				},
-				{
-					"name": "Reckless Attack",
-					"entries": [
-						"When you make your first attack on your turn, you can decide to attack recklessly, giving you advantage on melee weapon attack rolls using STR during this turn, but attack rolls against you have advantage until your next turn."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Extra Attack",
-					"entries": [
-						"Ermnik can attack twice, instead of once, whenever he takes the Attack action on his turn."
-					]
-				},
-				{
-					"name": "Axe of Slaying",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d12 + 4}) slashing damage."
-					]
-				},
-				{
-					"name": "Boomerang of Warning",
-					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 60/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Rage (3/Long Rest)",
-					"entries": [
-						"As a bonus action enter a rage for up to 1 minute (10 rounds).",
-						"You gain advantage on STR checks and saving throws (not attacks), +2 melee damage with STR weapons, resistance to bludgeoning, piercing, slashing damage. You can't cast or concentrate on spells while raging.",
-						"Your rage ends early if you are knocked {@condition unconscious} or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage as a bonus action."
-					]
-				},
-				{
-					"name": "Frenzy Attack",
-					"entries": [
-						"While in a frenzy, you can make a single melee weapon attack as a bonus action on each of your turns after this one."
-					]
-				}
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"C",
-				"D"
-			],
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			]
-		},
-		{
 			"name": "Drow Acolyte Retainer",
 			"source": "BurbuldorPlayerHandout",
 			"size": "M",
@@ -972,6 +395,583 @@
 				"restrained"
 			],
 			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ermnik Dankil (Retainer)",
+			"source": "BurbuldorPlayerHandout",
+			"level": 5,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"hill dwarf"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d12 + 20",
+				"average": 60
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 18,
+			"int": 9,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"str": "+6",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+6",
+				"intimidation": "+4",
+				"survival": "+3",
+				"insight": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saves against poison and resistance against poison damage."
+					]
+				},
+				{
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check."
+					]
+				},
+				{
+					"name": "Boomerang of Warning",
+					"entries": [
+						"While the boomerang of warning is on Ermnik's person, he has advantage on initiative rolls. In addition, he and any of his companions within 30 feet of him can't be surprised, except when {@condition incapacitated} by something other than nonmagical sleep. The boomerang magically awakens him and his companions within range if any of them are sleeping naturally when combat begins."
+					]
+				},
+				{
+					"name": "Reckless Attack",
+					"entries": [
+						"When you make your first attack on your turn, you can decide to attack recklessly, giving you advantage on melee weapon attack rolls using STR during this turn, but attack rolls against you have advantage until your next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"Ermnik can attack twice, instead of once, whenever he takes the Attack action on his turn."
+					]
+				},
+				{
+					"name": "Axe of Slaying",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d12 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Boomerang of Warning",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 60/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rage (3/Long Rest)",
+					"entries": [
+						"As a bonus action enter a rage for up to 1 minute (10 rounds).",
+						"You gain advantage on STR checks and saving throws (not attacks), +2 melee damage with STR weapons, resistance to bludgeoning, piercing, slashing damage. You can't cast or concentrate on spells while raging.",
+						"Your rage ends early if you are knocked {@condition unconscious} or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage as a bonus action."
+					]
+				},
+				{
+					"name": "Frenzy Attack",
+					"entries": [
+						"While in a frenzy, you can make a single melee weapon attack as a bonus action on each of your turns after this one."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Giant Goat Mount",
+			"source": "BurbuldorPlayerHandout",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor",
+						"PB"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10 + 3",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 11,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the goat moves at least 15 feet straight toward a target it starts charging."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Mounted",
+					"entries": [
+						"During a long rest, the goat can designate one creature that rode it within the last 10 days as its rider. The goat gains temporary hit points equal to 4 times the rider’s level or challenge rating after completing the long rest. The goat uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects."
+					]
+				},
+				{
+					"name": "Mountain Breed",
+					"entries": [
+						"The goat ignores difficult terrain and its long and high jump are 30 feet."
+					]
+				},
+				{
+					"name": "Temporary Hit Points",
+					"entries": [
+						"20"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Combat Ram",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage, or 13 ({@damage 4d4 + 3}) bludgeoning damage if the goat is charging on the same turn. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "High Ground",
+					"entries": [
+						"The goat needs to stand at least 10 feet higher than the target to use this action. The goat sprints down from its higher position, using gravity to gain speed. The target gets knocked {@condition prone} immediately and has to make a {@dc 13} Constitution saving throw, taking 17 ({@damage 4d6 + 3}) bludgeoning damage on a failed save and half as much on a successful one."
+					]
+				},
+				{
+					"name": "Dogfight (3/Day)",
+					"entries": [
+						"The goat attacks with combat ram uses it horns to lock a target into single combat. Until the target succeeds a {@dc 13} Strength saving throw, it can only attack the goat or its rider. The target can make the saving throw at the end of its turns."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Giant Goat.png?v=1.127.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-goat.mp3?v=1.127.2"
+			},
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Giant Lizard Mount",
+			"source": "BurbuldorPlayerHandout",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor",
+						"PB"
+					]
+				}
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d10 + 3"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 13,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"trait": [
+				{
+					"name": "Mounted",
+					"entries": [
+						"During a long rest, the lizard can designate one creature that rode it within the last 10 days as its rider. The lizard gains temporary hit points equal to 4 times the rider’s level or challenge rating after completing the long rest. The lizard uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
+					]
+				},
+				{
+					"name": "Temporary Hit Points",
+					"entries": [
+						"20"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Clapping (1/Day)",
+					"entries": [
+						"The lizards rider gains one Lizard Inspiration die, a {@dice d6}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Book it! (1/Day)",
+					"entries": [
+						"If it or its rider is hit, the lizard can move up to its speed away from the attacker. This movement does not provoke attacks of opportunity."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and other Underdark dwellers.",
+									"Variant: Giant Lizard Traits",
+									"Some giant lizards have one or both of the following traits. Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)",
+									{
+										"name": "Spider Climb",
+										"type": "entries",
+										"entries": [
+											"The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Giant Lizard.png?v=1.130.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-lizard.mp3?v=1.130.3"
+			},
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Homunculus Servant",
+			"source": "BurbuldorPlayerHandout",
+			"size": "T",
+			"type": "construct",
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "10 (5d4)"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 30
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
+					]
+				}
+			],
+			"actionNote": "Requires Your Bonus Action",
+			"action": [
+				{
+					"name": "Force Strike",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30 ft., one target you can see. {@h}{@damage 1d4 + 3} force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Channel Magic",
+					"entries": [
+						"The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Homunculus Servant",
+				"source": "TCE",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/TCE/Homunculus Servant.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/TCE/Homunculus Servant.png?v=1.130.3",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Steel Defender Mount",
+			"source": "BurbuldorPlayerHandout",
+			"size": "M",
+			"type": "construct",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "31 (5d8)"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"save": {
+				"dex": "+4",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Vigilant",
+					"entries": [
+						"The defender can't be surprised."
+					]
+				}
+			],
+			"actionNote": "Requires Your Bonus Action",
+			"action": [
+				{
+					"name": "Force-Empowered Rend",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + 3} force damage. If the target is Medium or smaller it becomes {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and the defender can use its action to deal {@damage 1d8 + 3} force damage. The defender can grapple only one target at a time."
+					]
+				},
+				{
+					"name": "Repair (3/Day)",
+					"entries": [
+						"The magical mechanisms inside the defender restore {@dice 2d8 + 3} hit points to itself or to one construct or object within 5 feet of it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Attack",
+					"entries": [
+						"The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Steel Defender",
+				"source": "TCE",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/TCE/Steel Defender.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/TCE/Steel Defender.png?v=1.130.3",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
 			"hasFluffImages": true
 		},
 		{
