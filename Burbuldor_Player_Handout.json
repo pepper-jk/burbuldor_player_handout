@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.145.2",
+	"siteVersion": "1.158.4",
 	"_meta": {
 		"sources": [
 			{
@@ -15,14 +15,16 @@
 				]
 			}
 		],
-		"dateAdded": 1640005686,
-		"dateLastModified": 1640005686
+		"dateAdded": 1654530833,
+		"dateLastModified": 1654530833
 	},
 	"monster": [
 		{
 			"name": "Drow Acolyte Retainer",
 			"source": "BurbuldorPlayerHandout",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -152,7 +154,9 @@
 		{
 			"name": "Drow Sage Retainer",
 			"source": "BurbuldorPlayerHandout",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -401,7 +405,9 @@
 			"name": "Ermnik Dankil (Retainer)",
 			"source": "BurbuldorPlayerHandout",
 			"level": 5,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -534,7 +540,9 @@
 		{
 			"name": "Giant Goat Mount",
 			"source": "BurbuldorPlayerHandout",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -640,7 +648,9 @@
 		{
 			"name": "Giant Lizard Mount",
 			"source": "BurbuldorPlayerHandout",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -770,7 +780,9 @@
 		{
 			"name": "Homunculus Servant",
 			"source": "BurbuldorPlayerHandout",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
 			"ac": [
 				{
@@ -868,7 +880,9 @@
 		{
 			"name": "Steel Defender Mount",
 			"source": "BurbuldorPlayerHandout",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"ac": [
 				{
@@ -977,7 +991,9 @@
 		{
 			"name": "Swordmaster",
 			"source": "BurbuldorPlayerHandout",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1086,7 +1102,9 @@
 			"shortName": "Thoradin",
 			"source": "BurbuldorPlayerHandout",
 			"level": 5,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
