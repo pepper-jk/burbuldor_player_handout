@@ -22,13 +22,14 @@
 		{
 			"name": "Drow Acolyte Retainer",
 			"source": "BurbuldorPlayerHandout",
+			"level": 7,
 			"size": [
 				"M"
 			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf"
+					"drow"
 				]
 			},
 			"alignment": [
@@ -43,8 +44,8 @@
 				}
 			],
 			"hp": {
-				"formula": "5d8 + 10",
-				"average": 32
+				"formula": "8d8 + 16",
+				"average": 52
 			},
 			"speed": {
 				"walk": {
@@ -154,13 +155,14 @@
 		{
 			"name": "Drow Sage Retainer",
 			"source": "BurbuldorPlayerHandout",
+			"level": 7,
 			"size": [
 				"M"
 			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"elf"
+					"drow"
 				]
 			},
 			"alignment": [
@@ -176,8 +178,8 @@
 				}
 			],
 			"hp": {
-				"formula": "5d6",
-				"average": 17
+				"formula": "8d6",
+				"average": 28
 			},
 			"speed": {
 				"walk": 30
