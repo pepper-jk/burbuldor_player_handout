@@ -1118,7 +1118,7 @@
 		{
 			"name": "Vond",
 			"source": "BurbuldorPlayerHandout",
-			"level": 5,
+			"level": 7,
 			"size": [
 				"M"
 			],
@@ -1141,8 +1141,8 @@
 				}
 			],
 			"hp": {
-				"formula": "6d8 + 40",
-				"average": 67
+				"formula": "8d8 + 40",
+				"average": 76
 			},
 			"speed": {
 				"walk": {
