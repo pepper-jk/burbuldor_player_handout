@@ -758,7 +758,8 @@
 				}
 			],
 			"hp": {
-				"special": "31 (5d8)"
+				"formula": "8d8 + 6",
+				"average": 42
 			},
 			"speed": {
 				"walk": 40
@@ -806,7 +807,7 @@
 				{
 					"name": "Force-Empowered Rend",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + 3} force damage. If the target is Medium or smaller it becomes {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and the defender can use its action to deal {@damage 1d8 + 3} force damage. The defender can grapple only one target at a time."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + 3} force damage. If the target is Medium or smaller it becomes {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and the defender can use its action to deal {@damage 1d8 + 3} force damage. The defender can grapple only one target at a time."
 					]
 				},
 				{
