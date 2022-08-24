@@ -968,6 +968,7 @@
 		{
 			"name": "Tasbella Coalbender",
 			"source": "BurbuldorPlayerHandout",
+			"level": 7,
 			"size": [
 				"M"
 			],
@@ -991,8 +992,8 @@
 				}
 			],
 			"hp": {
-				"formula": "6d10 + 50",
-				"average": 83
+				"formula": "8d10 + 50",
+				"average": 94
 			},
 			"speed": {
 				"walk": 30
@@ -1003,6 +1004,10 @@
 			"int": 10,
 			"wis": 8,
 			"cha": 16,
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -1014,7 +1019,6 @@
 				"Common",
 				"Dwarvish"
 			],
-			"cr": "5",
 			"trait": [
 				{
 					"name": "Dwarven Resilience",
