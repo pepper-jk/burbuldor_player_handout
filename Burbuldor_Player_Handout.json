@@ -859,6 +859,7 @@
 		{
 			"name": "Swordmaster",
 			"source": "BurbuldorPlayerHandout",
+			"level": 7,
 			"size": [
 				"M"
 			],
@@ -880,8 +881,8 @@
 				}
 			],
 			"hp": {
-				"formula": "5d10 + 10",
-				"average": 37
+				"formula": "8d10 + 16",
+				"average": 60
 			},
 			"speed": {
 				"walk": {
@@ -914,7 +915,6 @@
 			"languages": [
 				"appropriate to ancestry (usually Common)"
 			],
-			"cr": "Unknown",
 			"trait": [
 				{
 					"name": "Retainer",
