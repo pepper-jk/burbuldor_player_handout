@@ -1350,5 +1350,255 @@
 				"When you attune to this magical spear, shadowy ink spreads across your body starting from your hands forming a tattoo. You gain the benefits from an {@item eldritch claw tattoo|tce} ({@bold Magical Strike}, {@bold Eldritch Maul})."
 			]
 		}
+	],
+	"spell": [
+		{
+			"name": "Moon Blade",
+			"source": "BurbuldorPlayerHandout",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You weave together threads of moon light to create a sword of solidified light in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It has {@hit 1} bonus to attack rolls and deals {@damage 2d8 + 1} radiant damage on a hit and has the finesse, light, and thrown properties (range 20/60). When you hit an undead with it, that target takes an extra {@damage 1d8} radiant damage. In addition, when you use the sword to attack a target that is in moon light, you make the attack roll with advantage. The light from the {@spell moonbeam} spell counts as moon light for this.",
+				"If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the sword to reappear in your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8 + 1}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8 + 2} and the attack roll bonus increases to {@hit 2}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8 + 3} and the attack roll bonus increases to {@hit 3}."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Twilight",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Moon Path",
+			"source": "BurbuldorPlayerHandout",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "handful of powdered moonstone"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose two points within range. You create a stair or bridge between them. The bridge of glowing white translucent force like a glass strip that is up to 60 feet long and up to 20 feet wide (and able to vary in width over its length). It can climb or descend, twist and turn, and sticks to its endpoints unshakably, even if these endpoints are actually empty air. A moon path needs no supports. It vanishes if the spell ends, or if it has been completely traversed 10 times in any direction.",
+				"Creatures walking on the moon path are protected as follows:",
+				"- Their abilities and hit points can not be drained.",
+				"- They gain half cover (+2 to AC).",
+				"- They gain advantage on saving throws against being {@condition charmed}.",
+				"- They cannot fall over or off the moon path."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 6th-level spell slot or higher, the length of the path increases by 15 feet for each level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Twilight",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		}
 	]
 }
