@@ -857,7 +857,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Swordmaster",
+			"name": "Caltor Tosslebranch",
 			"source": "BurbuldorPlayerHandout",
 			"level": 7,
 			"size": [
@@ -866,7 +866,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"rock gnome"
 				]
 			},
 			"alignment": [
