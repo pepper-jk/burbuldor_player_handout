@@ -745,6 +745,103 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hound of Ill Omen",
+			"source": "BurbuldorPlayerHandout",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d10 + 10"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 15,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"It can move through other creatures and objects as if they were {@quickref difficult terrain||3}. The hound takes 5 force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Ill Omen",
+					"entries": [
+						"At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Dire Wolf.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/dire-wolf.mp3"
+			},
+			"traitTags": [
+				"Incorporeal Movement",
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
 			"name": "Steel Defender",
 			"source": "BurbuldorPlayerHandout",
 			"size": [
