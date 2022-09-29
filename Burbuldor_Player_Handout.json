@@ -842,6 +842,422 @@
 			]
 		},
 		{
+			"name": "Natascha \"Honey\" Claes",
+			"shortName": "Honey",
+			"source": "BurbuldorPlayerHandout",
+			"level": 8,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"dex": "+6",
+				"str": "+3"
+			},
+			"skill": {
+				"animal handling": "+6",
+				"intimidation": "+4",
+				"insight": "+6",
+				"nature": "+7",
+				"survival": "+9",
+				"stealth": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Honey is a 7th level {@classFeature spellcasting | ranger | phb | 2 | | ranger} ({@optfeature druidic warrior | tce}) and \"1st level {@classFeature pact magic | warlock | phb | 1 | | warlock}\" with a {@item +1 rod of the pact keeper | | +1 honey comb eye} as a spell casting focus.",
+						"She casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 16}, +8 to hit with spell attacks):"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast | | eldritch bees}",
+								"{@spell mage hand}",
+								"{@spell mold earth|XGE}",
+								"{@spell thunderclap|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell hunter's mark} (see bonus actions)",
+								"{@spell speak with animals}"
+							],
+							"slots": 5
+						},
+						"2": {
+							"spells": [
+								"{@spell healing spirit|XGE} (see bonus actions)",
+								"{@spell misty step}",
+								"{@spell pass without trace}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Pact Magic",
+					"entries": [
+						"Regain one 1st level spell slot during a short rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Honey makes two attacks with her bees or shortsword."
+					]
+				},
+				{
+					"name": "Eldritch Bees",
+					"entries": [
+						"{@atk rs} {@hit 8} to hit, range 120 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Moon-Touched Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Gathering Swarm (1/Turn)",
+					"entries": [
+						"When honey hits a creature with an attack, choose one:",
+						"- The attack's target takes {@damage 1d6} piercing damage from the swarm.",
+						"- The target must succeed on a {@dc 15} Strength saving throw or be moved by the swarm up to 15 feet horizontally in a direction of your choice.",
+						"- You are moved by the swarm 5 feet horizontally in a direction of your choice."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Hunter's Mark (3/Long Rest or costs spell slot)",
+					"entries": [
+						"Honey marks up to two targets with {@spell hunter's mark} and {@classFeature favored foe |Ranger||1|TCE}: For 1 minute, when honey hits a marked target with an attack, the target takes an addtional {@damage 1d6} damage.",
+						"If a target dies before the minute ends, honey can mark a new target."
+					]
+				},
+				{
+					"name": "Healing Spirit (Costs Spell Slot)",
+					"entries": [
+						"Honey casts {@spell healing spirit | xge}."
+					]
+				},
+				{
+					"name": "Misty Step (Costs Spell Slot)",
+					"entries": [
+						"Honey casts {@spell misty step}."
+					]
+				},
+				{
+					"name": "Writhing Tide (3/Long Rest)",
+					"entries": [
+						"Honey gains a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until she is {@condition incapacitated}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"T"
+			],
+			"spellcastingTags": [
+				"CL",
+				"CR"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Raatka Willowbill",
+			"shortName": "Raatka",
+			"source": "BurbuldorPlayerHandout",
+			"level": 8,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Owlin"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d10 + 16",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 17,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"str": "+3",
+				"con": "+5"
+			},
+			"skill": {
+				"history": "+6",
+				"nature": "+6",
+				"perception": "+4",
+				"stealth": "+6",
+				"arcana": "+6",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Druidic"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Raatka is {@feat fey touched | tce}, a {@feat strixhaven initiate | scc | Witherbloom student}, and a 1st level {@classFeature spellcasting | wizard | phb | 1 | | wizard} with a {@item Ruby of the War Mage | xge | magical} {@item +1 longbow} as a spell casting focus.",
+						"She casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}, +6 to hit with spell attacks):"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell druidcraft}",
+								"{@spell message}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell detect evil and good}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell protection from evil and good}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell misty step}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Action Surge (1/Short Rest)",
+					"entries": [
+						"On Raatka's turn, she can take one additional action."
+					]
+				},
+				{
+					"name": "Archery",
+					"entries": [
+						"Raatka's Fighting Style is {@optfeature archery} (already included in attacks)."
+					]
+				},
+				{
+					"name": "Arcane Recovery (1/Day)",
+					"entries": [
+						"Regain one 1st level spell slot during a short rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Raatka makes two attacks with her longbow. Using arcane shot on any of them."
+					]
+				},
+				{
+					"name": "+1 Longbow",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 150/300 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Ray of Frost",
+					"entries": [
+						"{@i Cantrip}",
+						"{@atk rs} {@hit 6} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) cold damage. The target's speed is reduced by 10 feet until the start of Raatka's next turn."
+					]
+				},
+				{
+					"name": "Shocking Grasp",
+					"entries": [
+						"{@i Cantrip}",
+						"{@atk ms} {@hit 6} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) lightning damage. The target can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Arcane Shot (3/Short Rest)",
+					"entries": [
+						"When Raatka hits a creature with an arrow, she can choose one arcane arrows (arcane shot save {@dc 14})."
+					]
+				},
+				{
+					"name": "Bursting Arrow",
+					"entries": [
+						"{@i Arcane Arrow}",
+						"You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take {@damage 2d6} force damage each."
+					]
+				},
+				{
+					"name": "Grasping Arrow",
+					"entries": [
+						"{@i Arcane Arrow}",
+						"When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra {@damage 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@damage 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again."
+					]
+				},
+				{
+					"name": "Piercing Arrow",
+					"entries": [
+						"{@i Arcane Arrow}",
+						"You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} piercing damage. On a successful save, a target takes half as much damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Curving Shot",
+					"entries": [
+						"When Raatka makes an attack roll with a magic arrow and misses, she can reroll the attack roll against a different target within 60 feet of the original target."
+					]
+				},
+				{
+					"name": "Second Wind (1/Short Rest)",
+					"entries": [
+						"Raatka regains {@dice 1d10 + 7} hit points."
+					]
+				},
+				{
+					"name": "Misty Step (Costs spell slot)",
+					"entries": [
+						"Raatka casts {@spell misty step}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shield (Costs spell slot)",
+					"entries": [
+						"Raatka casts {@spell shield}."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"S"
+			],
+			"damageTags": [
+				"C",
+				"L",
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"N"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			]
+		},
+		{
 			"name": "Steel Defender",
 			"source": "BurbuldorPlayerHandout",
 			"size": [
