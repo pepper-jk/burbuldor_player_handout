@@ -852,7 +852,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"Human"
+					"human"
 				]
 			},
 			"alignment": [
@@ -872,13 +872,18 @@
 				"average": 52
 			},
 			"speed": {
-				"walk": 30
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover, Writhing Tide)"
+				},
+				"canHover": true
 			},
-			"str": 10,
+			"str": 8,
 			"dex": 16,
 			"con": 14,
 			"int": 12,
-			"wis": 16,
+			"wis": 18,
 			"cha": 12,
 			"save": {
 				"dex": "+6",
@@ -892,7 +897,7 @@
 				"survival": "+9",
 				"stealth": "+6"
 			},
-			"passive": 13,
+			"passive": 14,
 			"languages": [
 				"Common",
 				"Elvish",
@@ -959,7 +964,7 @@
 				{
 					"name": "Moon-Touched Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
@@ -974,10 +979,11 @@
 			],
 			"bonus": [
 				{
-					"name": "Hunter's Mark (3/Long Rest or costs spell slot)",
+					"name": "Hunter's Mark (3/Long Rest and costs spell slot)",
 					"entries": [
-						"Honey marks up to two targets with {@spell hunter's mark} and {@classFeature favored foe |Ranger||1|TCE}: For 1 minute, when honey hits a marked target with an attack, the target takes an addtional {@damage 1d6} damage.",
-						"If a target dies before the minute ends, honey can mark a new target."
+						"Honey marks up to two targets with {@spell hunter's mark} and {@classFeature favored foe |Ranger||1|TCE}: For 1 hour, when honey hits a marked target with an attack, the target takes an addtional {@damage 1d6} damage for each mark.",
+						"While marked, honey has advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the target(s).",
+						"If a target dies before the minute ends, honey can mark a new target as a bonus action."
 					]
 				},
 				{
@@ -995,7 +1001,7 @@
 				{
 					"name": "Writhing Tide (3/Long Rest)",
 					"entries": [
-						"Honey gains a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until she is {@condition incapacitated}."
+						"Honey gains a flying speed of 30 feet and can hover. This effect lasts for 1 minute."
 					]
 				}
 			],
@@ -1015,8 +1021,8 @@
 				"T"
 			],
 			"spellcastingTags": [
-				"CL",
-				"CR"
+				"CR",
+				"CL"
 			],
 			"miscTags": [
 				"MW"
@@ -1060,7 +1066,7 @@
 			"str": 10,
 			"dex": 16,
 			"con": 14,
-			"int": 17,
+			"int": 18,
 			"wis": 12,
 			"cha": 8,
 			"save": {
@@ -1068,11 +1074,11 @@
 				"con": "+5"
 			},
 			"skill": {
-				"history": "+6",
-				"nature": "+6",
+				"history": "+7",
+				"nature": "+7",
 				"perception": "+4",
 				"stealth": "+6",
-				"arcana": "+6",
+				"arcana": "+10",
 				"survival": "+4"
 			},
 			"senses": [
@@ -1089,7 +1095,7 @@
 					"name": "Spellcasting",
 					"headerEntries": [
 						"Raatka is {@feat fey touched | tce}, a {@feat strixhaven initiate | scc | Witherbloom student}, and a 1st level {@classFeature spellcasting | wizard | phb | 1 | | wizard} with a {@item Ruby of the War Mage | xge | magical} {@item +1 longbow} as a spell casting focus.",
-						"She casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}, +6 to hit with spell attacks):"
+						"She casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}, +7 to hit with spell attacks):"
 					],
 					"spells": {
 						"0": {
@@ -1161,20 +1167,20 @@
 					"name": "Ray of Frost",
 					"entries": [
 						"{@i Cantrip}",
-						"{@atk rs} {@hit 6} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) cold damage. The target's speed is reduced by 10 feet until the start of Raatka's next turn."
+						"{@atk rs} {@hit 7} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) cold damage. The target's speed is reduced by 10 feet until the start of Raatka's next turn."
 					]
 				},
 				{
 					"name": "Shocking Grasp",
 					"entries": [
 						"{@i Cantrip}",
-						"{@atk ms} {@hit 6} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) lightning damage. The target can't take reactions until the start of its next turn."
+						"{@atk ms} {@hit 7} to hit, range 60 ft., one target. {@h}8 ({@damage 2d8}) lightning damage. The target can't take reactions until the start of its next turn."
 					]
 				},
 				{
 					"name": "Arcane Shot (3/Short Rest)",
 					"entries": [
-						"When Raatka hits a creature with an arrow, she can choose one arcane arrows (arcane shot save {@dc 14})."
+						"When Raatka hits a creature with an arrow, she can choose one of the following arcane arrow effects (arcane shot save {@dc 15}):"
 					]
 				},
 				{
@@ -1194,7 +1200,7 @@
 				{
 					"name": "Piercing Arrow",
 					"entries": [
-						"{@i Arcane Arrow}",
+						"{@i Arcane Arrow, replaces one attack}",
 						"You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} piercing damage. On a successful save, a target takes half as much damage."
 					]
 				}
@@ -1203,7 +1209,7 @@
 				{
 					"name": "Curving Shot",
 					"entries": [
-						"When Raatka makes an attack roll with a magic arrow and misses, she can reroll the attack roll against a different target within 60 feet of the original target."
+						"If Raatka makes an attack roll with an arrow and misses, she can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
 					]
 				},
 				{
@@ -1235,8 +1241,8 @@
 			],
 			"languageTags": [
 				"C",
-				"DU",
-				"S"
+				"S",
+				"DU"
 			],
 			"damageTags": [
 				"C",
@@ -1253,8 +1259,8 @@
 				"CW"
 			],
 			"miscTags": [
-				"RNG",
-				"RW"
+				"RW",
+				"RNG"
 			]
 		},
 		{
