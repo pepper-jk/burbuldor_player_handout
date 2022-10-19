@@ -1771,6 +1771,67 @@
 				"While holding this magical spear you gain {@sense darkvision} out to the range of 30 feet.",
 				"When you attune to this magical spear, shadowy ink spreads across your body starting from your hands forming a tattoo. You gain the benefits from an {@item eldritch claw tattoo|tce} ({@bold Magical Strike}, {@bold Eldritch Maul})."
 			]
+		},
+		{
+			"name": "Shadow-Tainted Spear",
+			"source": "BurbuldorPlayerHandout",
+			"type": "M",
+			"baseItem": "spear|phb",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true,
+			"entries": [
+				"While holding this magical spear you gain {@sense darkvision} out to the range of 60 feet.",
+				"When you attune to this magical spear, shadowy ink spreads across your body starting from your hands forming a tattoo. You gain the following benefits:",
+				{
+					"name": "Magical Strikes",
+					"entries": [
+						"While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes."
+					]
+				},
+				{
+					"name": "Eldritch Maul",
+					"entries": [
+						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra 1d6 force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
+					]
+				},
+				"Once you spent some time attuned to the spear, you reach a symbiotic bond with the shadows. During your next long rest, a fist sized pitch black ooze forms from your tattoo and finds the nearest bodily orifice to enter your body. You gain the following benefits:",
+				{
+					"name": "Grim Euphoria",
+					"entries": [
+						"When you hit with a melee attack using this magic spear and reduce the target to 0 hit points, you gain 2d6 temporary hit points."
+					]
+				},
+				{
+					"name": "Shadow Drain",
+					"entries": [
+						"On a hit, you can deal an extra 2d10 necrotic damage to the target. When you do so, you take half of the necrotic damage yourself. In addition, the target must succeed on a Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution. The DC of the saving throw is equal to the necrotic damage taken by the target."
+					]
+				},
+				{
+					"name": "Acid Breath",
+					"entries": [
+						"As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"name": "Symbiotic Nature",
+					"entries": [
+						"The ooze can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it."
+					]
+				}
+			]
 		}
 	],
 	"spell": [
