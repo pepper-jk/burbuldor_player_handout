@@ -1748,6 +1748,63 @@
 	],
 	"item": [
 		{
+			"name": "Mace of Sharindlar (Dormant)",
+			"source": "BurbuldorPlayerHandout",
+			"type": "M",
+			"baseItem": "mace|phb",
+			"rarity": "legendary",
+			"reqAttune": "by a dwarven cleric",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"mace": true,
+			"weapon": true,
+			"entries": [
+				"This golden mace bears the burning needle of Sharindlar on its hilt.",
+				"The mace has 5 charges and regains 1d4+1 expended charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Careful Spell",
+					"entries": [
+						"Whenever you cast a spell while holding this mace, you may expend a charge to use the Metamagic {@optfeature Careful Spell} using your Wisdom Modifier instead of your Charisma Modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"While holding it, you can expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell ability modifier:",
+						{
+							"type": "list",
+							"items": [
+								"{@spell Bless} at 2nd-level (2 charges)",
+								"{@spell Lesser Restoration} as a bonus action (2 charges)",
+								"{@spell Fireball} with white flames dealing radiant instead of fire damage centered on yourself (3 charges)",
+								"{@spell Aura of Purity} (4 charges)"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The mace grants the following benefits in its dormant state:",
+						{
+							"type": "list",
+							"items": [
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Shadow-Touched Spear",
 			"source": "BurbuldorPlayerHandout",
 			"type": "M",
