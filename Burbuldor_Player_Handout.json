@@ -14,6 +14,9 @@
 				]
 			}
 		],
+		"internalCopies": [
+			"item"
+		],
 		"dateAdded": 1616194424,
 		"dateLastModified": 1664471336
 	},
@@ -1803,6 +1806,65 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Mace of Sharindlar (Awakened)",
+			"source": "BurbuldorPlayerHandout",
+			"_copy": {
+				"name": "Mace of Sharindlar (Dormant)",
+				"source": "BurbuldorPlayerHandout",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "replaceArr",
+							"replace": "Dormant",
+							"items": {
+								"type": "entries",
+								"name": "Awakened",
+								"entries": [
+									"When the mace reaches an awakened state, it gains the following properties:",
+									{
+										"type": "list",
+										"items": [
+											"The weapon's bonus to attack and damage rolls increases to +2.",
+											"The number of charges of the mace increased to 10 and it regains 1d6+2 charges daily at dawn.",
+											{
+												"type": "entries",
+												"name": "Spells",
+												"entries": [
+													"The mace can now also cast the following spells:",
+													{
+														"type": "list",
+														"items": [
+															"{@spell Dawn | xge} at 2nd-level (5 charges)",
+															"{@spell Holy Weapon | xge} (5 charges)"
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Cleansing Flame",
+												"entries": [
+													"Once per day you may use an action to cleanse the battlefield with a pure white flame or radiant energy.",
+													"Every allied creature within 30 feet of you can remove one of the following conditions:",
+													"blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
+													"When you do so, you may use a bonus action to use your channel divinity."
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				},
+				"_preserve": {
+					"page": true,
+					"hasFluffImages": true
+				}
+			},
+			"bonusWeapon": "+2"
 		},
 		{
 			"name": "Shadow-Touched Spear",
