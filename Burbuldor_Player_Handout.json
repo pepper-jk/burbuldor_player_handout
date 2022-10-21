@@ -1751,6 +1751,73 @@
 	],
 	"item": [
 		{
+			"name": "Amber of Brass (Dormant)",
+			"source": "BurbuldorPlayerHandout",
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This round amber with rough surface is infused with energy from the plane of fire. It has translucent surface, through which one can see an ever burning magical flame on the inside. If you're a spellcaster, you can use this item as a spellcasting focus.",
+				"When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one fire damage roll of the spell."
+			]
+		},
+		{
+			"name": "Amber of Brass (Awakened)",
+			"source": "BurbuldorPlayerHandout",
+			"_copy": {
+				"name": "Amber of Brass (Dormant)",
+				"source": "BurbuldorPlayerHandout",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "appendArr",
+							"items": {
+								"type": "entries",
+								"name": "Awakened",
+								"entries": [
+									"When the amber reaches its awakened state, it gains the following properties:",
+									"When you use a Metamagic option on a spell, one target of the spell that you can see catches fire. The burning target takes 2d10 fire damage at the start of its next turn, and then the flames go out."
+								]
+							}
+						}
+					]
+				},
+				"_preserve": {
+					"page": true,
+					"hasFluffImages": true
+				}
+			}
+		},
+		{
+			"name": "Amber of Brass (Exalted)",
+			"source": "BurbuldorPlayerHandout",
+			"_copy": {
+				"name": "Amber of Brass (Awakened)",
+				"source": "BurbuldorPlayerHandout",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "appendArr",
+							"items": {
+								"type": "entries",
+								"name": "Exalted",
+								"entries": [
+									"You gain resistance to fire and lightning damage.",
+									"You can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save DC 16) without expending a spell slot."
+								]
+							}
+						}
+					]
+				},
+				"_preserve": {
+					"page": true,
+					"hasFluffImages": true
+				}
+			}
+		},
+		{
 			"name": "Mace of Sharindlar (Dormant)",
 			"source": "BurbuldorPlayerHandout",
 			"type": "M",
