@@ -1977,6 +1977,42 @@
 			]
 		},
 		{
+			"name": "Pants of Dancing",
+			"source": "BurbuldorPlayerHandout",
+			"tier": "minor",
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"wondrous": true,
+			"entries": [
+				"While wearing these pants, you have advantage on performance checks while dancing.",
+				"When you attune to this item you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Dancing Queen",
+					"entries": [
+						"You are considered proficient in the performance checks made to dance or move elegantly. If you already are proficient in performance, you are considered to have expertise in those checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Staying Alive",
+					"entries": [
+						"When you are reduced to 0 hit points, you instead moon walk 5 feet out of the threatened area and drop to 1 hit point instead. Once you use this feature, you can not use it again until the next dawn."
+					]
+				},
+				"When you attune to the pants, you have a constant urge to dance and can not take the pants off willingly until the attunement ends.",
+				"At least once per day, you need to take a short rest, in which you dance. You still gain the benefit of the short rest.",
+				{
+					"type": "entries",
+					"name": "Night Fever",
+					"entries": [
+						"To end your attunement to the pants, you have to spend a whole night (8 hours) dancing only taking breaks for alcoholic beverages, bathroom breaks or casual sex. In that night, you can not gain the benefits of a short or long rest. Only once you finally fall uncousious in the morning the pants peal off you, leaving you exposed."
+					]
+				},
+				"Wearing the pants for an extended period of time can have dire consequences from broken legs, to paraplegia, to death. It varies from wearer to wearer and case to case, but a week is considered the point of no return for most."
+			]
+		},
+		{
 			"name": "Shadow-Touched Spear",
 			"source": "BurbuldorPlayerHandout",
 			"type": "M",
