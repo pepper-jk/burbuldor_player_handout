@@ -1818,6 +1818,25 @@
 			}
 		},
 		{
+			"name": "Javelin of Elvenkind",
+			"source": "BurbuldorPlayerHandout",
+			"baseItem": "javelin|phb",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "60/240",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"Seldom an elf crafts a ranged weapon as crude as a javelin. But it is not unheard of. These javelins of elvenkind are forged with finesse and honed for the use for dexterity rather than brute stength.",
+				"When thrown using dexterity instead of strength, the range of the javelin doubles (already included in range). If thrown with strength the range is equal to that of a normal {@item javelin | phb}.",
+				"In previous ages, the javelins of elvenkind were used by elven athletes in competitions. So they are of cultural importance to older generations of elves. The most famous athlete was Ianquinal Sielithin."
+			]
+		},
+		{
 			"name": "Mace of Sharindlar (Dormant)",
 			"source": "BurbuldorPlayerHandout",
 			"type": "M",
