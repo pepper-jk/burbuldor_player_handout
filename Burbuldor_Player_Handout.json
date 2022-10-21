@@ -2015,6 +2015,19 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Speaking Stone",
+			"source": "BurbuldorPlayerHandout",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"If you're a gnome, you can touch the stone and use an action to cast the {@spell sending} spell from it. The target is any other speaking stone whose unique sequence of symbols you know. A creature within 5 feet of the stone hears the message as if they were the target.",
+				"During a short or long rest, you can inscribe any number of {@item sending stones} with a unique sequence. Once inscribed, they can receive messages from speaking stones."
+			],
+			"attachedSpells": [
+				"sending"
+			]
 		}
 	],
 	"spell": [
