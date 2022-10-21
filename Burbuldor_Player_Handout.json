@@ -1932,6 +1932,32 @@
 			"bonusWeapon": "+2"
 		},
 		{
+			"name": "Mace of Smithing",
+			"source": "BurbuldorPlayerHandout",
+			"srd": true,
+			"baseItem": "mace|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"entries": [
+				"On first glance, this mace can easily be mistaken for a hammer and not only because it comes in a leather bond set of smith's tools. However, its head does not have a cubold shape, but a cubic one. Making it more suited to be handled as a mace during a fight.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.",
+				"When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or an extra 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.",
+				{
+					"name": "Smith's Tool",
+					"type": "entries",
+					"entries": [
+						"This mace acts as {@item Smith's Tools}. When you use it to make an ability check, you gain a +1 bonus. When using the mace in this way, its head takes the shape of the hammer required for the task."
+					]
+				}
+			]
+		},
+		{
 			"name": "Shadow-Touched Spear",
 			"source": "BurbuldorPlayerHandout",
 			"type": "M",
