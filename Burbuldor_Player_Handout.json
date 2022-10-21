@@ -1913,9 +1913,7 @@
 												"type": "entries",
 												"name": "Cleansing Flame",
 												"entries": [
-													"Once per day you may use an action to cleanse the battlefield with a pure white flame or radiant energy.",
-													"Every allied creature within 30 feet of you can remove one of the following conditions:",
-													"blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
+													"Once per day you may use an action to cleanse the battlefield with a pure white flame or radiant energy. Every allied creature within 30 feet of you can remove one of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
 													"When you do so, you may use a bonus action to use your channel divinity."
 												]
 											}
