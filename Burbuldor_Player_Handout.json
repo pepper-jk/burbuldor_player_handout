@@ -1818,6 +1818,35 @@
 			}
 		},
 		{
+			"name": "Dwarven Thrower",
+			"source": "BurbuldorPlayerHandout",
+			"baseItem": "warhammer|phb",
+			"type": "M",
+			"tier": "minor",
+			"rarity": "rare",
+			"reqAttune": "by a dwarf",
+			"reqAttuneTags": [
+				{
+					"race": "dwarf"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"entries": [
+				"If you are a dwarf, this warhammer has the following properties:",
+				"This magic weapon has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra {@damage 1d8} damage. Immediately after the attack, the weapon flies back to your hand."
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Javelin of Elvenkind",
 			"source": "BurbuldorPlayerHandout",
 			"baseItem": "javelin|phb",
