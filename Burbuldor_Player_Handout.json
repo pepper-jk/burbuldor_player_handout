@@ -1931,6 +1931,27 @@
 				"_mod": {
 					"entries": [
 						{
+							"mode": "appendArr",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Sentience",
+									"entries": [
+										"The mace of sharindlar is a sentient lawful good weapon with an Intelligence of 10, a Wisdom of 16, and a Charisma of 12. It has hearing and darkvision out to a range of 120 feet.",
+										"The weapon communicates telepathically with its wielder and can speak, read, and understand Dwarvish and Common."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"The Mace of Sharindlar posses the personality of Tasbella Gálund, a former cleric of Sharindlar and sister to Thoradin Gálund, the hero of light. It was once whielded by Tasbella for a long time. Over time her views became ingraved in its very core. After her death, her soul passed on, but a version of her always remains within this mace.",
+										"She seeks to protect dwarves against all enemies, especially those creatures of darkness that once enslaved her people. Conflict arises if the wielder fails to protect dwarves, or to destroy those powers of darkness."
+									]
+								}
+							]
+						},
+						{
 							"mode": "replaceArr",
 							"replace": "Dormant",
 							"items": {
@@ -1977,6 +1998,7 @@
 					"hasFluffImages": true
 				}
 			},
+			"sentient": true,
 			"bonusWeapon": "+2"
 		},
 		{
