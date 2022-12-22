@@ -2224,6 +2224,7 @@
 						},
 						"subclass": {
 							"name": "Celestial",
+							"shortName": "Celestial",
 							"source": "XGE"
 						}
 					},
@@ -2234,6 +2235,7 @@
 						},
 						"subclass": {
 							"name": "Knowledge",
+							"shortName": "Knowledge",
 							"source": "PHB"
 						}
 					},
@@ -2244,6 +2246,7 @@
 						},
 						"subclass": {
 							"name": "Life",
+							"shortName": "Life",
 							"source": "PHB"
 						}
 					},
@@ -2254,6 +2257,7 @@
 						},
 						"subclass": {
 							"name": "Twilight",
+							"shortName": "Twilight",
 							"source": "TCE"
 						}
 					},
@@ -2264,6 +2268,7 @@
 						},
 						"subclass": {
 							"name": "Moon",
+							"shortName": "Moon",
 							"source": "PHB"
 						}
 					}
@@ -2351,6 +2356,7 @@
 						},
 						"subclass": {
 							"name": "Celestial",
+							"shortName": "Celestial",
 							"source": "XGE"
 						}
 					},
@@ -2361,6 +2367,7 @@
 						},
 						"subclass": {
 							"name": "Knowledge",
+							"shortName": "Knowledge",
 							"source": "PHB"
 						}
 					},
@@ -2371,6 +2378,7 @@
 						},
 						"subclass": {
 							"name": "Life",
+							"shortName": "Life",
 							"source": "PHB"
 						}
 					},
@@ -2381,6 +2389,7 @@
 						},
 						"subclass": {
 							"name": "Twilight",
+							"shortName": "Twilight",
 							"source": "TCE"
 						}
 					},
@@ -2391,6 +2400,7 @@
 						},
 						"subclass": {
 							"name": "Moon",
+							"shortName": "Moon",
 							"source": "PHB"
 						}
 					}
