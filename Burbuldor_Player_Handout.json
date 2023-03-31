@@ -1747,6 +1747,370 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Tex",
+			"source": "BurbuldorPlayerHandout",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnome"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"deception": "+7",
+				"persuasion": "+7",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Gnomish"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 15}), requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell demiplane} (Nova's Laboratory only)",
+							"{@spell scrying}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Bolt",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 120/120 ft., one target. {@h}11 ({@damage 2d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Shocking Grasp",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) lightning damage. The target can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Hold Person (3/Day, concentration)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"The warlock casts {@spell hold person} (spell save {@dc 15})."
+					]
+				},
+				{
+					"name": "Elemental Bane (1/Day, concentration)",
+					"entries": [
+						"{@i Prerequisite: 7th-level retainer}",
+						"The warlock casts {@spell elemental bane | xge} (spell save {@dc 15}, lightning damage)."
+					]
+				},
+				{
+					"name": "Banishment (1/Day, concentration)",
+					"entries": [
+						"{@i Prerequisite: 7th-level retainer}",
+						"The warlock casts {@spell banishment} (spell save {@dc 15})."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Wire Walk (1/Day)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"Tex can teleport up to 60 feet to an unoccupied space that they can see. If they do any creature in a line between their point of origin and the point of arrival must make a {@dc 15} Dexterity saving throw, taking {@damage 3d10} lightning damage on a failed save, or half as much damage on a successful one.",
+						"While in an area with electrical wiring, they can travel up to 120 feet this way."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Warlocks of the fiend gain their powers through magical pacts forged with archfiends of the Lower Planes. These warlocks often keep imps or quasits as companions, and they tend toward extremes of behavior: consorting with fiend-worshiping cultists or dedicating their lives to destroying fiendish cults."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Warlock of the Fiend.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"G"
+			],
+			"damageTags": [
+				"L"
+			],
+			"spellcastingTags": [
+				"I",
+				"CL"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"level": 8,
+			"trait": [
+				{
+					"name": "Retainer",
+					"entries": [
+						"This creature is a Retainer, as described in {@book Flee, Mortals! Preview|fmprev|5|Retainers}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dariggs Ragepast",
+			"source": "BurbuldorPlayerHandout",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"light armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Dwarvish",
+				"Undercommon"
+			],
+			"trait": [
+				{
+					"name": "Duergar Resilience",
+					"entries": [
+						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Retainer",
+					"entries": [
+						"This creature is a Retainer, as described in {@book Flee, Mortals! Preview|fmprev|5|Retainers}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Signature Attack (Soulblade)",
+					"entries": [
+						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) force damage, or 18 ({@damage 4d6 + 3}) force damage while under the effect of Enlarge or Invisibility.",
+						"{@i At 7th level, retainers can take two signature attacks per round.}"
+					]
+				},
+				{
+					"name": "Dagger of the Mind (1/Day)",
+					"entries": [
+						"{@i Prerequisite: 7th-level retainer}",
+						"Dariggs manifests the {@spell Dagger of the Mind | talentpsionicsopenplaytestround2} power."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Invisibility (1/Short Rest)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+					]
+				},
+				{
+					"name": "Enlarge (1/Short Rest)",
+					"entries": [
+						"{@i Prerequisite: 3rd-level retainer}",
+						"For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"D",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Duergar Soulblade.png",
+			"fluff": {
+				"name": "Duergar Soulblade",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Duergar Soulblade.webp"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Soulblades are duergar combatants whose mastery of psionics allows them to manifest blades of psychic energy to slice apart their foes."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Duergar",
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"Duergar architecture is remarkable for its brutalist grandeur. It is not a style I would use for my towers—I prefer gold, gems, and tracery—but I admire the boldness of dwarven stonework."
+								],
+								"by": "Mordenkainen"
+							},
+							{
+								"type": "quote",
+								"entries": [
+									"The mental power that duergar wield was given to them by illithids. But why would illithids create servants who could turn invisible or grow to ogre size?",
+									"Most likely because those servants would excel at herding their masters' other minions. In retrospect, it seems arguable that duergar escaped bondage because their jailers had given them the keys."
+								],
+								"by": "Mordenkainen"
+							},
+							"Duergar are dwarves of the deep reaches of the Underdark and other sunless realms. Their personalities and abilities have been deeply impacted by their ancestors' captivity and torment by mind flayers; they were infused with powerful psionic abilities but also a profound gloom. In some, this strain of sorrow inspires works of grand but melancholic beauty, while in others, it manifests as rage.",
+							"Like many who dwell in the Underdark, duergar must constantly be on guard against the raids and plots of their neighbors. To this end, duergar warriors fulfill a variety of combat roles, often marrying their fury in battle with their psionic abilities or training dangerous Underdark creatures as mounts.",
+							"Denigrated by some as joyless, duergar are in fact deeply passionate in all that they do—even if that passion rarely manifests as mirth. They bring an emotional intensity to their lives, whether they're exploring neighboring tunnels, defending their homes, engaging with their families, or crafting bold new works. The bonds of friendship and kinship are strong, though navigating the inevitable outbursts of frustration and despair is not always easy. Similarly, duergar tend to be very community-minded—in the Underdark, all must cooperate to survive.",
+							"Among the duergar of the Forgotten Realms, creation is a fiercely passionate process. They tend to favor works that are sturdy and grand, but in a bare, stripped-down fashion that favors geometric forms. The strongholds they design are blocky and stark, and the weapons they forge are blatantly tools of violence. While others may decry their creations as cold and bare of ornamentation to the point of austerity, duergar see them as honoring the materials used and honest about their purpose."
+						]
+					}
+				]
+			},
+			"level": 8,
+			"save": {
+				"cha": "+6"
+			},
+			"skill": {
+				"stealth": "+6"
+			},
+			"conditionInflict": [
+				"invisible"
+			],
+			"reaction": [
+				{
+					"name": "Dwarven Catcher (3/Short Rest)",
+					"entries": [
+						"{@i Prerequisite: 5th-level retainer}",
+						"As a reaction to his Mentor making a ranged attack with a {@item Dwarven Thrower | burbuldorplayerhandout} Dariggs can catch it and attack the target as well.",
+						"{@atk rw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			]
 		}
 	],
 	"item": [
