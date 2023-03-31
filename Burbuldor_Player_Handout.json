@@ -1702,7 +1702,7 @@
 				{
 					"name": "Retainer",
 					"entries": [
-						"This creature is a Retainer, as described in {@book Strongholds and Followers|SaF|8|Retainers}"
+						"This creature is a Retainer, as described in {@book Flee, Mortals! Preview|fmprev|5|Retainers}."
 					]
 				}
 			],
@@ -1720,21 +1720,21 @@
 					"name": "Cheer (3/Day)",
 					"entries": [
 						"{@i Prerequisite: 3rd-level retainer}",
-						"After an ally within 60 feet that the troubadour-warrior can see makes an attack, roll a {@dice d6} and add the result to the ally's result."
+						"After an ally within 60 feet that Vond can see makes an attack, roll a {@dice d6} and add the result to the ally's result."
 					]
 				},
 				{
 					"name": "Bolstering Praise (1/Day)",
 					"entries": [
 						"{@i Prerequisite: 5th-level retainer}",
-						"After an ally hits an enemy creature, the troubadour-warrior can convert the hit into a critical hit."
+						"After an ally hits an enemy creature, Vond can convert the hit into a critical hit."
 					]
 				},
 				{
 					"name": "Distracting Taunt (3/Day)",
 					"entries": [
 						"{@i Prerequisite: 7th-level retainer}",
-						"When a creature the troubadour-warrior can see within 60 feet hits the leader of the troubadour-warrior, the troubadour-warrior can taunt the creature, forcing it to make a Charisma saving throw. On a failed save, its attack automatically misses."
+						"When a creature Vond can see within 60 feet hits his Mentor, Vond can taunt the creature, forcing it to make a Charisma saving throw. On a failed save, its attack automatically misses."
 					]
 				}
 			],
