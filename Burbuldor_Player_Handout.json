@@ -2188,12 +2188,6 @@
 			"type": "M",
 			"tier": "minor",
 			"rarity": "rare",
-			"reqAttune": "by a dwarf",
-			"reqAttuneTags": [
-				{
-					"race": "dwarf"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "martial",
 			"property": [
