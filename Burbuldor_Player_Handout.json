@@ -2302,7 +2302,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"The Mace of Sharindlar posses the personality of Tasbella Gálund, a former cleric of Sharindlar and sister to Thoradin Gálund, the hero of light. It was once whielded by Tasbella for a long time. Over time her views became ingraved in its very core. After her death, her soul passed on, but a version of her always remains within this mace.",
+										"The Mace of Sharindlar posses the personality of Tasbella Gálund, a former cleric of Sharindlar and sister to Thoradin Gálund, the hero of light. It was once whielded by Tasbella for a long time. Over time her ideals became ingraved in its very core. After her death, her soul passed on, but a version of her always remains within this mace.",
 										"She seeks to protect dwarves against all enemies, especially those creatures of darkness that once enslaved her people. Conflict arises if the wielder fails to protect dwarves, or to destroy those powers of darkness."
 									]
 								}
@@ -2339,7 +2339,7 @@
 												"type": "entries",
 												"name": "Cleansing Flame",
 												"entries": [
-													"Once per day you may use an action to cleanse the battlefield with a pure white flame or radiant energy. Every allied creature within 30 feet of you can remove one of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
+													"Once per day you may use an action to cleanse the battlefield with a pure white flame of radiant energy. Every allied creature within 30 feet of you can remove one of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
 													"When you do so, you may use a bonus action to use your channel divinity."
 												]
 											}
