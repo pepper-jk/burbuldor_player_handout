@@ -1637,6 +1637,168 @@
 			]
 		},
 		{
+			"name": "Vikki",
+			"source": "BurbuldorPlayerHandout",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				},
+				12
+			],
+			"hp": {
+				"formula": "6 * 9",
+				"average": 54
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"int": "+7",
+				"wis": "+4",
+				"str": "+4",
+				"dex": "+6",
+				"con": "+6",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+7",
+				"religion": "+7",
+				"survival": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any four languages"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Vikki is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks).",
+						"Since she is a retainer her spells are not managed like a player character. But at the DMs discretion she may copy spells into her spell book. Here are the spells she already knows:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell identify}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feather fall}",
+							"{@spell mage armor}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Signature Attack",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage."
+					]
+				},
+				{
+					"name": "Elemental Arrow (3/Day)",
+					"entries": [
+						"{@i 3rd-level retainer}",
+						"Vikki makes a Signature Attack, on a hit the target takes an additional {@damage 3d8} damage.",
+						"Choose one of the following colors:",
+						"{@i Blue} for cold damage.",
+						"{@i Green} for poison damage.",
+						"{@i Orange} for acid damage.",
+						"{@i Red} for fire damage.",
+						"{@i Yellow} for lightning damage."
+					]
+				},
+				{
+					"name": "Crimson Arrow (1/Day)",
+					"entries": [
+						"{@i 5th-level retainer}",
+						"Vikki makes a Signature Attack. On both a hit or a miss starting at the target, a {@spell magic missile} spell is cast."
+					]
+				},
+				{
+					"name": "Violet Arrow (1/Day)",
+					"entries": [
+						"{@i 7th-level retainer}",
+						"Vikki makes a Signature Attack, on a hit the target needs to succeed a {@dc 15} Dexterity saving throw or be {@condition blinded}.",
+						"It must then must make a {@dc 15} Wisdom saving throw at the start of your next turn. A successful save ends the {@condition blinded} condition. If it fails that save, the creature is transported to another plane of existence of the GM's choosing and is no longer {@condition blinded}."
+					]
+				},
+				{
+					"name": "Amber Arrow (1/Day)",
+					"entries": [
+						"{@i 7th-level retainer}",
+						"Vikki makes a Signature Attack, on a hit the target looses {@status concentration} and must succeed a {@dc 15} Constitution saving throw or be silenced until the end of your next turn."
+					]
+				}
+			],
+			"languageTags": [
+				"X"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"hasFluff": true,
+			"level": 9,
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Rainbow Recurve (3/Day, Concentration)",
+					"entries": [
+						"Vikki can summon a longbow formed of swirling rainbow hues to her hands. While using the bow to fire colored arrows she is {@status concentration||concentrating}, just like on a spell.",
+						"Once she fires an arrow, the corresponding color disappears from the bow, and she can't select that color again."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"bonus": [
+				{
+					"name": "White Arrow (1/Day)",
+					"entries": [
+						"{@i 5th-level retainer}",
+						"Vikki fires a white arrow up to 150 feet into an unoccupied space and teleports into that space."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"damageTags": [
+				"O"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
 			"name": "Vond",
 			"source": "BurbuldorPlayerHandout",
 			"level": 7,
